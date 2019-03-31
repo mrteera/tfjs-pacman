@@ -29,7 +29,7 @@ docker run -it --rm -v <tfjs-pacman-full-path>:/root/tfjs-pacman -p 1234:1234 mr
 
 For Windows (Legacy Docker)
  ```
- docker run -it --rm -v '/c/ Downloads/tfjs-pacman:/root/tfjs-pacman' -p 1234:1234 mrteera/tfjs:base /bin/bash
+ docker run -it --rm -v '/c/ Downloads/tfjs-pacman:/root/tfjs-pacman/my_code' -p 1234:1234 mrteera/tfjs:base /bin/bash
 ```
 
 4. install TensorFlow.js
