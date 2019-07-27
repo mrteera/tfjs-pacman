@@ -15,7 +15,8 @@
   "scripts": {
     "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open",
     "build": "cross-env NODE_ENV=production parcel build index.html  --no-minify --public-url ./",
-    "link-local": "yalc link"
+    "link-local": "yalc link",
+    "start": "cross-env NODE_ENV=development parcel index.html --no-hmr --open"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
